@@ -1,13 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
+import classes from './Projects.module.css';
 
 const projects = () => {
   return (
     <div>
       <h1>Projects</h1>
-      <Link to="/tixtra"><p>Tixtra</p></Link>
-      <Link to="/habit"><p>HabitTrackr</p></Link>
-      <Link to="/burger"><p>BurgerBuilder</p></Link>
+      <ul className={classes.Projects}>
+        <li><NavLink to="/tixtra">Tixtra</NavLink></li>
+        <li><NavLink to="/habit">HabitTrackr</NavLink></li>
+        <li><NavLink to="/burger">BurgerBuilder</NavLink></li>
+        <li><NavLink to="/yelpcamp">YelpCamp</NavLink></li>
+      </ul>
     </div>
     );
 };

@@ -1,27 +1,32 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-// import Navbar from './containers/Navbar/Navbar';
+import Navbar from './containers/Navbar/Navbar';
+import Home from './components/Home/Home';
 import About from './components/About/About';
 import Blogs from './components/Blogs/Blogs';
 import Projects from './containers/Projects/Projects';
 import Tixtra from './components/Tixtra/Tixtra';
 import HabitTrackr from './components/HabitTrackr/HabitTrackr';
 import BurgerBuilder from './components/BurgerBuilder/BurgerBuilder';
+import YelpCamp from './components/YelpCamp/YelpCamp';
+
+import classes from './App.module.css'
 
 
 function App() {
   return (
-    <div>
+    <div className={classes.App}>
+      <Navbar />
       <Switch>
-        {/* <Navbar /> */}
-        <Route path='/' exact render={() => (<h1>Under Construction</h1>)}/>
+        <Route path='/' exact component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/blogs' component={Blogs}/>
         <Route path='/projects' component={Projects}/>
         <Route path='/tixtra' component={Tixtra}/>
         <Route path='/habit' component={HabitTrackr}/>
         <Route path='/burger' component={BurgerBuilder}/>
+        <Route path='/yelpcamp' component={YelpCamp}/>
       </Switch>
     </div>
   );

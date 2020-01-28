@@ -1,0 +1,21 @@
+.About {
+  text-decoration: none;
+  color: #33334d;
+  font-size: 25px;
+  font-weight: 400;
+}
+.About a {
+  color: #33334d;
+  text-decoration: none;
+}
+
+.About a:hover,
+.About a:active,
+.About a.active {
+  color: #006600;
+}
+
+.Winter {
+  width: 400px;
+  height: 500px;
+}
