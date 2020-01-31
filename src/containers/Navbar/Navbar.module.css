@@ -12,19 +12,19 @@
   box-sizing: border-box;
 }
 
-.Navbar li {
-  display: inline-block;
-  margin: auto;
-  height: 100%;
-  padding: 10px;
+.Navbar ul {
+  display: flex;
+  list-style: none;
   align-items: center;
 }
 
 .Navbar a {
+  padding: 10px;
   text-decoration: none;
   color: #33334d;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
+  /* border-right: 1px solid #eee; */
 }
 
 .Navbar a:hover,

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <header className={classes.Navbar}>
-        <div>GOC</div>
+        <NavLink to='/' style={{fontSize: '16px'}}>GOC</NavLink>
         <nav>
           <ul>
             <li><NavLink activeClassName={classes.active} to='/about'>About</NavLink></li>
