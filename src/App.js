@@ -7,7 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import Navbar from './containers/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Blogs from './components/Blogs/Blogs';
+import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Projects from './containers/Projects/Projects';
 import Tixtra from './components/Tixtra/Tixtra';
 import HabitTrackr from './components/HabitTrackr/HabitTrackr';
@@ -26,7 +26,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/about' component={About}/>
-          <Route path='/blogs' component={Blogs}/>
+          <Route path='/blogs' component={BlogsContainer}/>
           <Route path='/projects' component={Projects}/>
           <Route path='/tixtra' component={Tixtra}/>
           <Route path='/habit' component={HabitTrackr}/>

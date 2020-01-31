@@ -1,0 +1,14 @@
+.BlogsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.BlogsContainer div {
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+}

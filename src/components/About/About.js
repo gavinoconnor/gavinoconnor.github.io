@@ -19,7 +19,6 @@ const about = () => {
         excellent communication and interpersonal skills. Independently
         motivated to stay current with relevant software and applications.
       </p>
-      <Link to="/projects">Projects</Link>
     </div>
   );
 };
