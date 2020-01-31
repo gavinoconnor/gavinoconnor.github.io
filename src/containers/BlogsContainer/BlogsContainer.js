@@ -19,10 +19,13 @@ class BlogsContainer extends Component {
 
   render() {
     return (
-      <div className={classes.BlogsContainer}>
-        {this.state.blogs.map(blog => {
-          return <BlogPost key={blog.title} blog={blog}/>
-        })}
+      <div>
+        <h1 style={{fontSize: '2em', fontWeight: '800', color: '#33334d'}}>Blogs</h1>
+        <div className={classes.BlogsContainer}>
+          {this.state.blogs.map(blog => {
+            return <BlogPost key={blog.title} blog={blog}/>
+          })}
+        </div>
       </div>
     );
   }
