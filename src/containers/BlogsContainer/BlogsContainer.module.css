@@ -9,10 +9,18 @@
 
 .BlogsContainer div {
   flex: 0 1 auto;
-  padding: 5px;
+  padding: 10px;
   width: 400px;
   height: 350px;
   margin-top: 10px;
+  margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1px solid #eee;
+  border: 2px solid lightblue;
+  border-radius: 5%;
+}
+
+@media (min-width: 1099px) {
+  .BlogsContainer div {
+    flex: 0 1 calc(38% - 1em);
+  }
 }

@@ -1,14 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
-import classes from "./About.module.css";
-import winter from "./winter-bed.jpeg";
+import classes from './About.module.css';
+import profile from './profile_pic_1.jpeg';
 
 const about = () => {
   return (
     <div className={classes.About}>
       <h1>About Me</h1>
-      <img src={winter} alt="winter" className={classes.Winter} />
+      <img src={profile} alt="profile" className={classes.profile} />
       <p>
         Full Stack Web Developer possessing 10+ years of diverse technical,
         marketing, and entrepreneurial experience with a passion for coding.

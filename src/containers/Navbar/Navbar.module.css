@@ -1,5 +1,6 @@
 .Navbar {
-  background-color: tomato;
+  background-color: #EEE;
+  opacity: 0.6;
   height: 56px;
   width: 100%;
   position: fixed;
@@ -22,8 +23,8 @@
   padding: 10px;
   text-decoration: none;
   color: #33334d;
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 500;
   /* border-right: 1px solid #eee; */
 }
 

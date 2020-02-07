@@ -9,8 +9,8 @@
 
 .Projects li {
   flex: 0 1 auto;
-  background: tomato;
-  padding: 5px;
+  background: lightblue;
+  padding: 10px;
   width: 400px;
   height: 350px;
   margin-top: 10px;
@@ -19,6 +19,7 @@
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+  border-radius: 5%;
 }
 
 .Projects a {
@@ -32,4 +33,10 @@
 .Projects a:active,
 .Projects a.active {
   color: #006600;
+}
+
+@media (min-width: 1099px) {
+  .Projects li {
+    flex: 0 1 calc(38% - 1em);
+  }
 }
