@@ -1,28 +1,30 @@
 .Projects {
+  display: grid;
+  /* width: 100vw; */
+  /* height: 150vh; */
+  background-color: lightgray;
+  position: relative;
   padding: 20px;
-  margin: auto;
+  /* margin: auto; */
   list-style: none;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  /* justify-content: left; */
 }
 
 .Projects li {
-  flex: 0 1 auto;
   background: lightblue;
-  padding: 10px;
-  width: 400px;
-  height: 350px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 300px;
+  /* width: 100vw;
+  height: 33vh; */
+  border: 1px solid black;
+  height: 40vh;
+  margin-top: 1px;
+  margin-bottom: 1px;
   font-weight: bold;
   font-size: 3em;
-  text-align: center;
-  border-radius: 5%;
+  /* text-align: left; */
 }
 
 .Projects a {
+  padding: 20px;
   text-decoration: none;
   color: #33334d;
   font-size: 30px;

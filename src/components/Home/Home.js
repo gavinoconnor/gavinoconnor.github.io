@@ -7,9 +7,9 @@ import Projects from '../../containers/Projects/Projects';
 const home = (props) => {
   return (
     <React.Fragment>
+      <About />
       <Projects />
       <BlogsContainer />
-      <About />
     </React.Fragment>
   );
 }
