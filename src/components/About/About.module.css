@@ -1,9 +1,15 @@
 .About {
+  display: flex;
   text-decoration: none;
   color: #33334d;
   font-size: 1.3em;
   font-weight: 400;
 }
+
+.About p {
+  font-size: 2em;
+}
+
 .About a {
   color: #33334d;
   text-decoration: none;
@@ -15,7 +21,25 @@
   color: #006600;
 }
 
+.Hello {
+  font-family: TiemposFine;
+  font-size: 1.5em;
+  text-align: left;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.Intro {
+  font-size: .9em;
+  text-align: left;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.ImageContainer {
+
+}
 .Profile {
-  width: 400px;
-  height: 400px;
+  /* width: 200px;
+  height: 200px; */
 }
