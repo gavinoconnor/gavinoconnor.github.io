@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 import './fonts/TiemposFine-Light.otf';
+import './fonts/NeueHaasUnicaPro-Bold.otf';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';

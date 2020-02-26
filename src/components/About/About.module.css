@@ -1,9 +1,8 @@
 .About {
   display: flex;
   text-decoration: none;
-  color: #33334d;
-  font-size: 1.3em;
-  font-weight: 400;
+  background-color: #071014;
+  color: #FFF;
 }
 
 .About p {
@@ -11,7 +10,7 @@
 }
 
 .About a {
-  color: #33334d;
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -22,11 +21,12 @@
 }
 
 .Hello {
-  font-family: TiemposFine;
-  font-size: 1.5em;
+  font-family: TiemposFine-Light;
+  font-weight: 300;
+  font-size: 2.5em;
   text-align: left;
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .Intro {
@@ -40,6 +40,5 @@
 
 }
 .Profile {
-  /* width: 200px;
-  height: 200px; */
+  padding-top: 5px;
 }

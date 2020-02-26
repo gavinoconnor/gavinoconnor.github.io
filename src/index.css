@@ -9,7 +9,14 @@ body {
 
 @font-face {
   font-family: 'TiemposFine';
-  src: local('TiemposFine'), url('./fonts/TiemposFine-Light.otf'), format('truetype');
+  src: url('./fonts/TiemposFine-Light.otf');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'NeueHaasUnicaPro-Bold';
+  src: url('./fonts/NeueHaasUnicaPro-Bold.otf');
+  src: local('NeueHaasUnicaPro-Bold'), url('./fonts/NeueHaasUnicaPro-Bold.otf'), format('opentype');
 }
 
 code {

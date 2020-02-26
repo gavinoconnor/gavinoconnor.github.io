@@ -20,7 +20,10 @@ const about = () => {
             Full Stack Web Developer possessing 10+ years of diverse technical,
             marketing, and entrepreneurial experience with a passion for coding.
             Flatiron School graduate, adept at building fully-functioning
-            applications. Extensive cross-functional experience shepherding projects
+            applications.
+          </p>
+          <p>
+            Extensive cross-functional experience shepherding projects
             through their lifecycle. An adaptable, creative problem solver with
             excellent communication and interpersonal skills. Independently
             motivated to stay current with relevant software and applications.
@@ -28,7 +31,7 @@ const about = () => {
         </div>
       </div>
       <div className={classes.ImageContainer}>
-        <img src={profile} alt="profile" className={classes.profile} />
+        <img src={profile} alt="profile" className={classes.Profile} />
       </div>
     </div>
   );

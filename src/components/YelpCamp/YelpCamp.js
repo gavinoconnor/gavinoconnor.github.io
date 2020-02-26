@@ -5,7 +5,7 @@ import yelpcamp from './yelpcamp.jpeg';
 
 const yelpCamp = () => {
   return (
-    <div>
+    <div className={classes.YelpCamp}>
       <h1>YelpCamp</h1>
       <div>
         <div>
@@ -13,8 +13,12 @@ const yelpCamp = () => {
           <h3>About the project:</h3>
           <p>A Yelp clone for campgrounds. Built with Node.js, Express, and MongoDB. Styled with Bootcamp.</p>
         </div>
-        <h3>Demo Video</h3>
-        <h4>Github link/code preview</h4>
+        <iframe src='https://www.youtube.com/embed/1Kuyz3Cvla4'
+        frameBorder='0'
+        allow='autoplay; encrypted-media'
+        allowFullScreen
+        title='video'/>
+        <h3>Find the code at Github <a href="https://github.com/gavinoconnor/YelpCamp">here.</a></h3>
       </div>
     </div>
   );

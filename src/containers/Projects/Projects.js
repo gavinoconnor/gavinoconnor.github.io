@@ -6,7 +6,6 @@ import classes from './Projects.module.css';
 const projects = () => {
   return (
     <div>
-      <h1 style={{fontSize: '2em', fontWeight: '800', color: '#33334d'}}>Projects</h1>
       <ul className={classes.Projects}>
         <li><NavLink to="/tixtra">Tixtra</NavLink></li>
         <li><NavLink to="/habit">HabitTrackr</NavLink></li>
