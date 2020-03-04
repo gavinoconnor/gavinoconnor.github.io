@@ -15,8 +15,7 @@
   border: 1px solid red;
   padding: 10px;
   margin: 5px;
-  width: 100%;
-  min-height: 50vh;
+  min-height: 60vh;
 }
 
 .Project li {
@@ -24,7 +23,7 @@
 }
 
 .Project p {
-  width: 50%;
+  width: 33%;
   font-size: 1.25em;
 }
 
@@ -39,7 +38,7 @@
 .Project a:hover,
 .Project a:active,
 .Project a.active {
-  color: #006600;
+  color: #908434;
 }
 
 /* @media (min-width: 1099px) {

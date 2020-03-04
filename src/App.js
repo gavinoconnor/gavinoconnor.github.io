@@ -15,7 +15,7 @@ import BurgerBuilder from './components/BurgerBuilder/BurgerBuilder';
 import YelpCamp from './components/YelpCamp/YelpCamp';
 import Footer from './components/Footer/Footer';
 
-import classes from './App.module.css'
+import classes from './App.module.css';
 
 library.add(fab);
 

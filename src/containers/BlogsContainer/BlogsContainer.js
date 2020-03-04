@@ -20,7 +20,7 @@ class BlogsContainer extends Component {
   render() {
     return (
       <div className={classes.BlogsContainer}>
-        <div>
+        <div className={classes.Blogs}>
           {this.state.blogs.map(blog => {
             return <BlogPost key={blog.title} blog={blog}/>
           })}

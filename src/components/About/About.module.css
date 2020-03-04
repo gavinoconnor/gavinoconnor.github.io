@@ -4,7 +4,7 @@
   text-align: left;
   text-decoration: none;
   background-color: #071014;
-  color: #FFF;
+  color: #fff;
   margin: 0 auto;
   padding-top: 5px;
   padding-bottom: 15px;
@@ -15,14 +15,14 @@
 } */
 
 .About a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
 .About a:hover,
 .About a:active,
 .About a.active {
-  color: #006600;
+  color: #908434;
 }
 
 .Hello {
