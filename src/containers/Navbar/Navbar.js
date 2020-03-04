@@ -5,9 +5,9 @@ import classes from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className={classes.Font}>
       <header className={classes.Navbar}>
-        <NavLink to='/' style={{fontSize: '30px'}}>GOC</NavLink>
+        <NavLink to='/' style={{fontSize: '32px'}}>GOC</NavLink>
         <nav>
           <ul>
             <li><NavLink activeClassName={classes.active} to='/about'>About</NavLink></li>

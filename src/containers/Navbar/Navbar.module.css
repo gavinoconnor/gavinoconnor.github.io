@@ -1,7 +1,11 @@
+.Font {
+  font-family: NeueHaasUnicaPro;
+  font-weight: 300;
+}
+
 .Navbar {
   background-color: #071014;
   color: #FFF;
-  /* opacity: 0.6; */
   width: 100%;
   position: absolute;
   top: 0;
@@ -14,18 +18,17 @@
 }
 
 .Navbar ul {
+  margin-bottom: 10px;
   display: flex;
   list-style: none;
   align-items: center;
-  font-family: NeueHaasUnicaPro-Bold;
 }
 
 .Navbar a {
-  padding: 10px;
+  padding: 25px;
   text-decoration: none;
   color: #FFF;
-  font-family: NeueHaasUnicaPro;
-  font-size: 1.5em;
+  font-size: 18px;
 }
 
 .Navbar a:hover,

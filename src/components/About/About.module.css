@@ -1,13 +1,18 @@
 .About {
-  display: flex;
+  font-family: TiemposFine;
+  font-weight: 300;
+  text-align: left;
   text-decoration: none;
   background-color: #071014;
   color: #FFF;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
-.About p {
-  font-size: 2em;
-}
+/* .About p {
+  margin-bottom: 0;
+} */
 
 .About a {
   color: #FFF;
@@ -21,24 +26,21 @@
 }
 
 .Hello {
-  font-family: TiemposFine-Light;
-  font-weight: 300;
-  font-size: 2.5em;
-  text-align: left;
-  padding: 10px;
-  margin-left: 15px;
+  width: 50%;
+  font-size: 3.5em;
+  margin-left: 45px;
 }
 
 .Intro {
-  font-size: .9em;
-  text-align: left;
-  padding: 10px;
-  margin-left: 20px;
+  width: 50%;
+  font-size: 1.5rem;
+  margin-left: 45px;
+  overflow-wrap: break-word;
 }
 
 .ImageContainer {
-
+  margin-left: 45px;
 }
 .Profile {
-  padding-top: 5px;
+  /* padding-top: 5px; */
 }

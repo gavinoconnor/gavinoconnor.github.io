@@ -14,9 +14,10 @@ body {
   font-weight: 300;
 }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Bold';
+  font-family: 'NeueHaasUnicaPro';
   src: url('./fonts/NeueHaasUnicaPro-Bold.otf');
-  src: local('NeueHaasUnicaPro-Bold'), url('./fonts/NeueHaasUnicaPro-Bold.otf'), format('opentype');
+  font-style: normal;
+  font-weight: 300;
 }
 
 code {
