@@ -7,7 +7,6 @@ const blogPost = (props) => {
   return (
     <div className={classes.BlogPost}>
       <h2>{props.blog.title}</h2>
-      <hr />
       {/* <p>{props.blog.pubDate}</p> */}
       {/* <p>{props.blog.categories}</p> */}
       <p className={classes.BlogParagraph}>

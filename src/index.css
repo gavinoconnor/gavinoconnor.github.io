@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  box-sizing: border-box;
+}
+/* inherit box-sizing from html */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 @font-face {
   font-family: 'TiemposFine';
   src: url('./fonts/TiemposFine-Light.otf');
