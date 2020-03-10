@@ -1,8 +1,47 @@
+.YelpCamp {
+  background-color: #D8D8D8;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  color: white;
+  height: 100vh;
+}
+
+.Description {
+  font-family: TiemposFine;
+  font-weight: 300;
+  color: #071C2C;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 2em;
+  text-align: left;
+  display: grid;
+  align-content: center;
+}
+
+iframe {
+  display: grid;
+  align-content: center;
+  margin-top: 50px;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
 .YelpCamp a {
-  color: #33334d;
+  color: #071C2C;
   text-decoration: none;
 }
 
-.Camp {
-  width: 50%;
+.YelpCamp a:hover {
+  color: #cc9933;
+}
+
+@media (max-width: 700px) {
+  .YelpCamp {
+    display: flex;
+    flex-direction: column;
+  }
 }

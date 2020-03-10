@@ -6,22 +6,17 @@ import yelpcamp from './yelpcamp.jpeg';
 const yelpCamp = () => {
   return (
     <div className={classes.YelpCamp}>
-      <h1>YelpCamp</h1>
-      <div>
-        <div>
-          <img src={yelpcamp} alt="yelpcamp" className={classes.Camp}/>
-          <h3>About the project:</h3>
-          <p>A Yelp clone for campgrounds. Built with Node.js, Express, and MongoDB. Styled with Bootcamp.</p>
+        <div className={classes.Description}>
+          <p><strong>YelpCamp</strong></p>
+          <p>A Yelp-like application for uploading, rating, and reviewing campgrounds.<br /><br />Built with Node.js, Express, and MongoDB. <br />Styled with Bootcamp.</p>
+          <p>Find the code at Github <a href="https://github.com/gavinoconnor/YelpCamp">here.</a></p>
         </div>
-        <iframe src='https://www.youtube.com/embed/1Kuyz3Cvla4'
-        frameBorder='0'
-        allow='autoplay; encrypted-media'
-        allowFullScreen
-        title='video'/>
-        <h3>Find the code at Github <a href="https://github.com/gavinoconnor/YelpCamp">here.</a></h3>
-      </div>
+        <div className={classes.Video}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1Kuyz3Cvla4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
   );
 }
 
 export default yelpCamp;
+{/* <img src={yelpcamp} alt="yelpcamp" className={classes.Camp}/> */}

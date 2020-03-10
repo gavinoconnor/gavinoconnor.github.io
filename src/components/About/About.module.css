@@ -22,10 +22,11 @@
 .About a:hover,
 .About a:active,
 .About a.active {
-  color: #908434;
+  color: #cc9933;
 }
 
 .Hello {
+  line-height: 1.25;
   width: 50%;
   font-size: 3.5em;
   margin-left: 45px;

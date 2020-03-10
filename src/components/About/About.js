@@ -9,8 +9,8 @@ const about = () => (
         <p>
           Hello.
           <br />
-          A headline here.
-          <br />A <u>resume</u> here.
+          I'm Gavin O'Connor,<br />a full stack developer.
+          <br />Request a <a href="#"><u>resume</u></a>.
         </p>
       </div>
 
