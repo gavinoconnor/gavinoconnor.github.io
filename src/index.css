@@ -33,10 +33,19 @@ html {
 
 @font-face {
   font-family: 'NeueHaasUnicaPro';
-  src: url('./fonts/NeueHaasUnicaPro-Bold.otf');
+  src: url('./fonts/NeueHaasUnicaPro-Regular.otf');
   font-style: normal;
   font-weight: 300;
 }
+
+@font-face {
+  font-family: 'NeueHaasUnicaPro';
+  src: url('./fonts/NeueHaasUnicaPro-Bold.otf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
