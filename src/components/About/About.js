@@ -9,14 +9,14 @@ const about = () => (
         <p>
           Hello.
           <br />
-          I'm Gavin O'Connor,<br />a full stack developer.
-          <br />Request a <a href="#"><u>resume</u></a>.
+          I'm Gavin O'Connor,<br />a full stack web developer.
+          <br /><br />Request a <a href="#"><u>resume</u></a>.
         </p>
       </div>
 
       <div className={classes.Intro}>
         <p>
-          Grace Brewster Murray Hopper. Full Stack Web Developer possessing 10+
+          Full Stack Web Developer possessing 10+
           years of diverse technical, marketing, and entrepreneurial experience
           with a passion for coding. Flatiron School graduate, adept at building
           fully-functioning applications.

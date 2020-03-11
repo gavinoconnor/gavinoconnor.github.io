@@ -1,7 +1,6 @@
 import React from 'react';
 
 import classes from './YelpCamp.module.css';
-import yelpcamp from './yelpcamp.jpeg';
 
 const yelpCamp = () => {
   return (
@@ -16,7 +15,6 @@ const yelpCamp = () => {
         </div>
     </div>
   );
-}
+};
 
 export default yelpCamp;
-{/* <img src={yelpcamp} alt="yelpcamp" className={classes.Camp}/> */}

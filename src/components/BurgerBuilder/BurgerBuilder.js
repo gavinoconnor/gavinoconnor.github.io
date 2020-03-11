@@ -1,19 +1,23 @@
 import React from 'react';
 
+import classes from './BurgerBuilder.module.css';
+
 const burgerBuilder = () => {
-  return (
-    <div>
-      <h1>Burger Builder</h1>
-      <div>
-        <div>
-          <h3>About the project:</h3>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
-        </div>
-        <h3>Demo Video</h3>
-        <h4>Github link/code preview</h4>
-      </div>
+  return (<div className={classes.BurgerBuilder}>
+    <div className={classes.Description}>
+      <p>
+        <strong>BurgerBuilder</strong>
+      </p>
+      <p>TK.<br/><br/>Built with ...
+        <br/>Styled with ...</p>
+      <p>Find the code at Github
+        <a href="https://github.com/gavinoconnor/YelpCamp">here.</a>
+      </p>
     </div>
-  );
-}
+    <div className={classes.Video}>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1Kuyz3Cvla4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+  </div>);
+};
 
 export default burgerBuilder;

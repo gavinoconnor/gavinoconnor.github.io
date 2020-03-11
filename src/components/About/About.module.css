@@ -5,14 +5,37 @@
   text-decoration: none;
   background-color: #071014;
   color: #fff;
-  margin: 0 auto;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: start;
+  align-items: center;
+  padding: 0 45px;
 }
 
-/* .About p {
-  margin-bottom: 0;
-} */
+.Hello {
+  padding-top: 40px;
+  line-height: 1.25;
+  font-size: 3.4rem;
+  align-self: center;
+}
+
+.Intro {
+  align-self: start;
+  grid-column: 1;
+  font-size: 1.6rem;
+  overflow-wrap: break-word;
+}
+
+.ImageContainer {
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
+  justify-self: center;
+}
+
+.Profile {
+  width: 100%;
+}
 
 .About a {
   color: #fff;
@@ -23,25 +46,4 @@
 .About a:active,
 .About a.active {
   color: #cc9933;
-}
-
-.Hello {
-  line-height: 1.25;
-  width: 50%;
-  font-size: 3.5em;
-  margin-left: 45px;
-}
-
-.Intro {
-  width: 50%;
-  font-size: 1.5rem;
-  margin-left: 45px;
-  overflow-wrap: break-word;
-}
-
-.ImageContainer {
-  margin-left: 45px;
-}
-.Profile {
-  /* padding-top: 5px; */
 }

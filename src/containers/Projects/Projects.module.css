@@ -1,37 +1,76 @@
 .Projects {
   background-color: #D8D8D8;
-  padding: 20px;
   list-style: none;
-  margin: 0 auto;
   padding-top: 50px;
+  margin: 0;
   font-family: TiemposFine;
   font-weight: 300;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 1fr;
 }
 
 .Project {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 2fr 1fr;
   background-color: #D8D8D8;
   color: #071C2C;
-  border: 1px solid red;
-  padding: 10px;
-  margin: 5px;
-  min-height: 60vh;
+  padding-bottom: 50px;
+  /* border: 2px solid white; */
+  /* min-height: 70vh; */
+}
+
+.Project:nth-of-type(2n) {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  background-color: #D8D8D8;
+  color: #071C2C;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  /* border: 2px solid red; */
 }
 
 .Project li {
   font-size: 3em;
+  grid-column: 1;
+  align-self: center;
+}
+
+.Project:nth-of-type(2n) li {
+  font-size: 3em;
+  grid-column: 2;
+  align-self: center;
 }
 
 .Project p {
-  width: 33%;
-  font-size: 1.25em;
+  font-size: 1.5em;
+  grid-row: 2;
+  align-self: center;
+}
+
+.Project:nth-of-type(2n) p {
+  font-size: 1.5em;
+  grid-row: 2;
+  align-self: center;
 }
 
 .Project a {
-  /* padding: 20px; */
   text-decoration: underline;
   color: #33334d;
   font-size: 1.5em;
   font-weight: 400;
+  grid-row: 3;
+}
+
+.Project:nth-of-type(2n) a {
+  text-decoration: underline;
+  color: #33334d;
+  font-size: 1.5em;
+  font-weight: 400;
+  grid-column: 2;
+  grid-row: 3;
 }
 
 .Project a:hover,
@@ -40,8 +79,23 @@
   color: #908434;
 }
 
-/* @media (min-width: 1099px) {
-  .Projects li {
-    flex: 0 1 calc(38% - 1em);
-  }
-} */
+.Project img {
+  padding-top: 20px;
+  width: 80%;
+  /* height: 100%; */
+  grid-column: 2;
+  grid-row: 1 / 3;
+  justify-self: end;
+  align-self: center;
+  margin-right: 40px;
+}
+
+.Project:nth-of-type(2n) img {
+  padding-top: 20px;
+  width: 80%;
+  /* height: 100%; */
+  grid-column: 1;
+  grid-row: 1 / 3;
+  justify-self: start;
+  align-self: center;
+}

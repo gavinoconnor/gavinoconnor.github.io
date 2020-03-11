@@ -1,4 +1,4 @@
-.YelpCamp {
+.HabitTrackr {
   background-color: #D8D8D8;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -29,17 +29,17 @@ iframe {
   height: 80%;
 }
 
-.YelpCamp a {
+.HabitTrackr a {
   color: #071C2C;
   text-decoration: none;
 }
 
-.YelpCamp a:hover {
+.HabitTrackr a:hover {
   color: #cc9933;
 }
 
 @media (max-width: 700px) {
-  .YelpCamp {
+  .HabitTrackr {
     display: flex;
     flex-direction: column;
   }
