@@ -14,7 +14,7 @@
   display: block;
   padding-top: 20px;
   border-bottom: 6px solid white;
-  width: 75%;
+  width: 80%;
 }
 
 .BlogParagraph {
@@ -27,7 +27,7 @@
   font-weight: 300;
   text-transform: uppercase;
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .BlogPost a:hover,
