@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './About.module.css';
-import profile from './profile_pic_1.jpeg';
+import profile from './about-profile.jpg';
 
 const about = () => (
     <div className={classes.About}>
@@ -10,7 +10,7 @@ const about = () => (
           Hello.
           <br />
           I'm Gavin O'Connor,<br />a full stack web developer.
-          <br /><br />Request a <a href="#"><u>resume</u></a>.
+          <br /><br />Request a <a href='mailto:gedmund@gmail.com?subject=Resume-Request'><u>resume</u></a>.
         </p>
       </div>
 
