@@ -11,7 +11,9 @@ const footer = () => (
     <a href="https://github.com/gavinoconnor">
       <FontAwesomeIcon icon={['fab', 'github']} size='3x' style={{ color: 'white' }}/>
     </a>
+    <a href="https://medium.com/@gavindustry">
     <FontAwesomeIcon icon={['fab', 'medium']} size='3x' style={{ color: 'white' }}/>
+    </a>
   </div>
 );
 

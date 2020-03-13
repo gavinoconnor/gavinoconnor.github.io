@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classes from './About.module.css';
 import profile from './about-profile.jpg';
 
@@ -27,7 +28,38 @@ const about = () => (
           communication and interpersonal skills. Independently motivated to
           stay current with relevant software and applications.
         </p>
+        <div className={classes.Social}>
+            <ul>Find me here:
+              <li>
+                <a href="https://www.linkedin.com/in/gavin-oconnor/">
+              <FontAwesomeIcon icon={['fab', 'linkedin']} size='2x' style={{ color: 'white' }}/>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/gavinoconnor">
+                <FontAwesomeIcon icon={['fab', 'github']} size='2x' style={{ color: 'white' }}/>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@gavindustry">
+                <FontAwesomeIcon icon={['fab', 'medium']} size='2x' style={{ color: 'white' }}/>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/gavinoconnor?si=sgILXQKlTtOAkCKshyW-xg">
+                <FontAwesomeIcon icon={['fab', 'spotify']} size='2x' style={{ color: 'white' }}/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gavindustry/">
+                <FontAwesomeIcon icon={['fab', 'instagram']} size='2x' style={{ color: 'white' }}/>
+                </a>
+              </li>
+            </ul>
+
+        </div>
       </div>
+
 
       <div className={classes.ImageContainer}>
         <img src={profile} alt="profile" className={classes.Profile} />
