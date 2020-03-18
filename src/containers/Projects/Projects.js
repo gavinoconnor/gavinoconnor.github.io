@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import classes from './Projects.module.css';
 
 import yelpcamp from './yelpcamp.jpeg';
+import burgerbuilder from '../../assets/burger-builder.jpg';
 
 const projects = () => (
   <div className={classes.Projects}>
@@ -29,7 +30,7 @@ const projects = () => (
           Grace Brewster Murray Hopper (née Murray December 9, 1906 – January 1, 1992) was an American computer scientist and United States Navy rear admiral. One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented.
         </p>
         <NavLink to="/burger">LAUNCH</NavLink>
-        <img src={yelpcamp} alt="yelpcamp"/>
+        <img src={burgerbuilder} alt="burgerbuilder"/>
       </div>
       <div className={classes.ProjectOdd}>
         <h3>YelpCamp</h3>
