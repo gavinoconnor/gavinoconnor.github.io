@@ -7,7 +7,13 @@ const tixtra = () => {
       <div className={classes.Tixtra}>
           <div className={classes.Description}>
             <p><strong>Tixtra</strong></p>
-            <p>TK.<br /><br />Built with ... <br />Styled with ...</p>
+            Front End:
+              <li>React/Redux</li>
+              <li>Material</li>
+                <br />
+            Back End:
+              <li>Ruby on Rails</li>
+              <li>Postgresql</li>
             <p>Find the code at Github <a href="https://github.com/gavinoconnor/YelpCamp">here.</a></p>
           </div>
           <div className={classes.Video}>
