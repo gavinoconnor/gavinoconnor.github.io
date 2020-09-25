@@ -28,10 +28,10 @@ function App() {
           <Route path='/about' component={About}/>
           <Route path='/blogs' component={BlogsContainer}/>
           <Route path='/projects' component={Projects}/>
-          <Route path='/tixtra' component={Tixtra}/>
+          {/* <Route path='/tixtra' component={Tixtra}/>
           <Route path='/habit' component={HabitTrackr}/>
           <Route path='/burger' component={BurgerBuilder}/>
-          <Route path='/yelpcamp' component={YelpCamp}/>
+          <Route path='/yelpcamp' component={YelpCamp}/> */}
         </Switch>
       <Footer />
     </div>
