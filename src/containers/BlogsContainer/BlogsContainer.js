@@ -14,7 +14,6 @@ class BlogsContainer extends Component {
     .then((res) => res.json())
     .then(data => {
       this.setState({blogs: data.items})
-
     })
   }
 

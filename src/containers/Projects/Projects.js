@@ -14,15 +14,11 @@ const projects = () => (
       <div className={classes.ProjectEven}>
         <h3>Tixtra</h3>
         <p>
-        Front End:
-          <li>React/Redux</li>
-          <li>Material</li>
-            <br />
-        Back End:
-          <li>Ruby on Rails</li>
-          <li>Postgresql</li>
+        Tixtra is a ticket-sharing application that connects users based on similar musical interests. The <strong>backend</strong> was built with Ruby on Rails, Postgresql, and the Ticketmaster API. The <strong>frontend</strong> was built with React-Redux and Material UI.
+        <br /><br />
+        Users can upload extra tickets in their possession, search for tickets (by artist, venue, or other users), and connect with like-minded music lovers.
         </p>
-        <NavLink to="/tixtra">LAUNCH</NavLink>
+        {/* <NavLink to="/tixtra">LAUNCH</NavLink> */}
         <img src={tixtra} alt="tixtra"/>
       </div>
       <div className={classes.ProjectOdd}>
