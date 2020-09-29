@@ -9,10 +9,10 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Projects from './containers/Projects/Projects';
-import Tixtra from './components/Tixtra/Tixtra';
-import HabitTrackr from './components/HabitTrackr/HabitTrackr';
-import BurgerBuilder from './components/BurgerBuilder/BurgerBuilder';
-import YelpCamp from './components/YelpCamp/YelpCamp';
+// import Tixtra from './components/Tixtra/Tixtra';
+// import HabitTrackr from './components/HabitTrackr/HabitTrackr';
+// import BurgerBuilder from './components/BurgerBuilder/BurgerBuilder';
+// import YelpCamp from './components/YelpCamp/YelpCamp';
 import Footer from './components/Footer/Footer';
 
 import classes from './App.module.css';
