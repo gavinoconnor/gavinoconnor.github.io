@@ -13,7 +13,12 @@
 .Projects a.active {
   color: #908434;
 }
-/* ToDo: link width */
+
+strong {
+  font-size: 1.1em;
+  color: #071014;
+}
+
 
 /* Even Numbered Projects */
 .ProjectEven {
@@ -43,7 +48,7 @@
 .ProjectEven a {
   text-decoration: underline;
   color: #33334d;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
   grid-row: 3;
 }
@@ -85,7 +90,7 @@
 .ProjectOdd a {
   text-decoration: underline;
   color: #33334d;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
   grid-column: 2;
   grid-row: 3;
