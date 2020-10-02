@@ -12,8 +12,9 @@
   padding: 10px;
 }
 
-/* @media (min-width: 1099px) {
-  .BlogsContainer div {
-    flex: 0 1 calc(38% - 1em);
+@media screen and (max-width: 599px) {
+  .Blogs {
+    display: block;
+    font-size: 1.15em;
   }
-} */
+}

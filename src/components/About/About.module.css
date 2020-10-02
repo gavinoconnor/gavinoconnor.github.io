@@ -63,3 +63,19 @@
 .Social li {
   padding: 10px;
 }
+
+@media screen and (max-width: 599px) {
+  .About {
+    display: block;
+    margin-top: 0px;
+  }
+  .ImageContainer {
+    display: none;
+  }
+  .Intro {
+    display: none;
+  }
+  .Social {
+    display: block;
+  }
+}

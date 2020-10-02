@@ -10,3 +10,10 @@
 .linkedin:hover {
   color: #908434;
 } */
+
+@media screen and (max-width: 599px) {
+  .Footer {
+    display: flex;
+    padding: 5px;
+  }
+}

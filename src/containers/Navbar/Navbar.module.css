@@ -35,3 +35,9 @@
 .Navbar a.active {
   color: #cc9933;
 }
+
+@media screen and (max-width: 599px) {
+  .Navbar {
+    display: none;
+  }
+}

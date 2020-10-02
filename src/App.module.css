@@ -2,3 +2,10 @@
   background: #EAEAEA;
   padding-top: 50px;
 }
+
+@media screen and (max-width: 599px) {
+  .App {
+    padding-top: 0px;
+    width: 100vw;
+  }
+}

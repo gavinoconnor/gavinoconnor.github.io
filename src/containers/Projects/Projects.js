@@ -2,11 +2,7 @@ import React from 'react';
 
 import classes from './Projects.module.css';
 
-// import yelpcamp from '../../assets/yelpcamp.jpeg';
-// import burgerbuilder from '../../assets/burger-builder.jpg';
-// import habitTrak from '../../assets/habit-trak.png';
 import tixtra from '../../assets/tixtra.png';
-
 
 const projects = () => (
   <div className={classes.Projects}>
@@ -30,8 +26,7 @@ const projects = () => (
         <br /><br />
         Users select from a library of habits, define their goals, and record when a habit or goal has been completed. A simple chart illustrates their progress in real time.
         <br /><br />
-        See the frontend code <a href="https://github.com/gavinoconnor/habit-trak-client">here</a>. <br />
-        See the backend code <a href="https://github.com/gavinoconnor/habit-trak-api">here</a>.
+        See the frontend code <a href="https://github.com/gavinoconnor/habit-trak-client">here</a>, and the backend <a href="https://github.com/gavinoconnor/habit-trak-api">here</a>.
         </p>
         <iframe title="HabitTrackr demo video" width="560" height="315" src="https://www.youtube.com/embed/0I3epQ6T_Yw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
       </div>
