@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -18,15 +18,14 @@ library.add(fab);
 function App() {
   return (
     <div className={classes.App}>
-      <Navbar />
+        <Navbar />
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Redirect from='*' to='/'/> 
           <Route path='/about' component={About}/>
           <Route path='/blogs' component={BlogsContainer}/>
           <Route path='/projects' component={Projects}/>
         </Switch>
-      <Footer />
+        <Footer />
     </div>
   );
 }
