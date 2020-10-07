@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/home-site/static/css/main.ad1042b5.chunk.css",
-    "main.js": "/home-site/static/js/main.67a7d5d5.chunk.js",
-    "main.js.map": "/home-site/static/js/main.67a7d5d5.chunk.js.map",
-    "runtime-main.js": "/home-site/static/js/runtime-main.317db1a3.js",
-    "runtime-main.js.map": "/home-site/static/js/runtime-main.317db1a3.js.map",
-    "static/js/2.428eb307.chunk.js": "/home-site/static/js/2.428eb307.chunk.js",
-    "static/js/2.428eb307.chunk.js.map": "/home-site/static/js/2.428eb307.chunk.js.map",
-    "index.html": "/home-site/index.html",
-    "precache-manifest.07e90b4547470a650e2665a3350b8b9a.js": "/home-site/precache-manifest.07e90b4547470a650e2665a3350b8b9a.js",
-    "service-worker.js": "/home-site/service-worker.js",
-    "static/css/main.ad1042b5.chunk.css.map": "/home-site/static/css/main.ad1042b5.chunk.css.map",
-    "static/js/2.428eb307.chunk.js.LICENSE.txt": "/home-site/static/js/2.428eb307.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/home-site/static/media/TiemposFine-Regular.56e24756.otf",
-    "static/media/about-profile.jpg": "/home-site/static/media/about-profile.795f8b9e.jpg",
-    "static/media/tixtra.png": "/home-site/static/media/tixtra.de2acf97.png"
+    "main.css": "./static/css/main.bd89332d.chunk.css",
+    "main.js": "./static/js/main.eb559e99.chunk.js",
+    "main.js.map": "./static/js/main.eb559e99.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.4a23d2d2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.4a23d2d2.js.map",
+    "static/js/2.428eb307.chunk.js": "./static/js/2.428eb307.chunk.js",
+    "static/js/2.428eb307.chunk.js.map": "./static/js/2.428eb307.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.3076d2ffb5559af8b4529bcf47422149.js": "./precache-manifest.3076d2ffb5559af8b4529bcf47422149.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.bd89332d.chunk.css.map": "./static/css/main.bd89332d.chunk.css.map",
+    "static/js/2.428eb307.chunk.js.LICENSE.txt": "./static/js/2.428eb307.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/TiemposFine-Regular.56e24756.otf",
+    "static/media/about-profile.jpg": "./static/media/about-profile.795f8b9e.jpg",
+    "static/media/tixtra.png": "./static/media/tixtra.de2acf97.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.317db1a3.js",
+    "static/js/runtime-main.4a23d2d2.js",
     "static/js/2.428eb307.chunk.js",
-    "static/css/main.ad1042b5.chunk.css",
-    "static/js/main.67a7d5d5.chunk.js"
+    "static/css/main.bd89332d.chunk.css",
+    "static/js/main.eb559e99.chunk.js"
   ]
 }
