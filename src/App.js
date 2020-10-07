@@ -18,14 +18,14 @@ library.add(fab);
 function App() {
   return (
     <div className={classes.App}>
-        <Navbar />
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About}/>
-          <Route path='/blogs' component={BlogsContainer}/>
-          <Route path='/projects' component={Projects}/>
-        </Switch>
-        <Footer />
+      <Navbar />
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/about' component={About}/>
+        <Route path='/blogs' component={BlogsContainer}/>
+        <Route path='/projects' component={Projects}/>
+      </Switch>
+      <Footer />
     </div>
   );
 }
