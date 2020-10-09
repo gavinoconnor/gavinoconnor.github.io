@@ -14,6 +14,10 @@
 }
 
 @media screen and (max-width: 599px) {
+  .BlogsContainer {
+    display: block;
+    height: 100%;
+  }
   .Blogs {
     display: block;
     font-size: 1.15em;
