@@ -29,27 +29,27 @@ const about = () => (
         <div className={classes.Social}>
             <ul>Find me here:
               <li>
-                <a href="https://www.linkedin.com/in/gavin-oconnor/">
+                <a href="https://www.linkedin.com/in/gavin-oconnor/" target='_blank'>
               <FontAwesomeIcon icon={['fab', 'linkedin']} size='1x' style={{ color: 'white' }}/>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/gavinoconnor">
+                <a href="https://github.com/gavinoconnor" target='_blank' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'github']} size='1x' style={{ color: 'white' }}/>
                 </a>
               </li>
               <li>
-                <a href="https://medium.com/@gavindustry">
+                <a href="https://medium.com/@gavindustry" target='_blank' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'medium']} size='1x' style={{ color: 'white' }}/>
                 </a>
               </li>
               <li>
-                <a href="https://open.spotify.com/user/gavinoconnor?si=sgILXQKlTtOAkCKshyW-xg">
+                <a href="https://open.spotify.com/user/gavinoconnor?si=sgILXQKlTtOAkCKshyW-xg" target='_blank' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'spotify']} size='1x' style={{ color: 'white' }}/>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/gavindustry/">
+                <a href="https://www.instagram.com/gavindustry/" target='_blank' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'instagram']} size='1x' style={{ color: 'white' }}/>
                 </a>
               </li>
