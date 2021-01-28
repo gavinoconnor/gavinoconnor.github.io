@@ -8,14 +8,9 @@
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "minimist": "^1.2.5",
-    "node-forge": "^0.10.0",
-    "object-path": "^0.11.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
-    "serialize-javascript": "^4.0.0"
+    "react-scripts": "4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
