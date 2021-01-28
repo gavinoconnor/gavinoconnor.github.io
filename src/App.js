@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -15,19 +15,19 @@ import classes from './App.module.css';
 
 library.add(fab);
 
-function App() {
-  return (
-    <div className={classes.App}>
-      <Navbar />
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route path='/about' component={About}/>
-        <Route path='/blogs' component={BlogsContainer}/>
-        <Route path='/projects' component={Projects}/>
-      </Switch>
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className={classes.App}>
+        <Navbar />
+          <Home />
+          <About />
+          <Projects />
+          <BlogsContainer />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;
