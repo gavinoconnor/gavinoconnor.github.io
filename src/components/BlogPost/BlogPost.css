@@ -1,15 +1,15 @@
-.BlogPost {
+.blog-post {
   font-family: TiemposFine;
   font-weight: 300;
   font-size: 1.25em;
   padding: 20px;
 }
 
-.BlogPost h2 {
+.blog-post h2 {
   font-weight: 400;
 }
 
-.BlogPost h2:after {
+.blog-post h2:after {
   content: "";
   display: block;
   padding-top: 20px;
@@ -17,12 +17,12 @@
   width: 80%;
 }
 
-.BlogParagraph {
+.blog-paragraph {
   font-size: 1em;
   line-height: 1.25;
 }
 
-.BlogPost a {
+.blog-post a {
   font-family: NeueHaasUnicaPro;
   font-weight: 300;
   text-transform: uppercase;
@@ -30,13 +30,13 @@
   text-decoration: underline;
 }
 
-.BlogPost a:hover,
-.BlogPost a:active,
-.BlogPost a.active {
+.blog-post a:hover,
+.blog-post a:active,
+.blog-post a.active {
   color: #cc9933;
 }
 
-.BlogPost img {
+.blog-post img {
   height: auto;
   max-height: 250px;
   width: auto;
