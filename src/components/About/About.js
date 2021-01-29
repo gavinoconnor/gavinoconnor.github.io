@@ -1,12 +1,16 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import classes from './About.module.css';
+
+// -v- CSS and image -v-
+import './About.css';
 import profile from './about-profile.jpg';
 
-const about = () => (
-  <div className={classes.About}>
-    <div className={classes.Hello}>
+class About extends React.Component {
+  render() {
+    return (
+  <div className='about'>
+    <div className='hello'>
       <p>
         Hello.
           <br />
@@ -16,7 +20,7 @@ const about = () => (
       </p>
     </div>
 
-    <div className={classes.Intro}>
+    <div className='intro'>
       <p>
         I came to coding as a curious business owner wanting to be more hands-on with our digital presence. I’ve always been a passionate learner, and soon realized that software development was a natural fit for my need to problem-solve.
         </p>
@@ -26,7 +30,7 @@ const about = () => (
       <p>
         As a former business owner and editor, I'm an adaptable, creative problem solver with excellent communication and interpersonal skills. And as a life-long learner, I'm independently motivated to stay current with relevant software and applications.
         </p>
-      <div className={classes.Social}>
+      <div className='social'>
         <ul>Find me here:
               <li>
             <a href="https://www.linkedin.com/in/gavin-oconnor/" target='_blank' rel="noopener noreferrer">
@@ -59,10 +63,12 @@ const about = () => (
     </div>
 
 
-    <div className={classes.ImageContainer}>
-      <img src={profile} alt="profile" className={classes.Profile} />
+    <div className='image-container'>
+      <img src={profile} alt="profile" className='profile' />
     </div>
   </div>
-);
+    )
+  }
+} 
 
-export default about;
+export default About;

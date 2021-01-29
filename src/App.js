@@ -7,8 +7,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import Navbar from './containers/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Projects from './containers/Projects/Projects';
+import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Footer from './components/Footer/Footer';
 
 import classes from './App.module.css';

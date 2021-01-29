@@ -1,4 +1,4 @@
-.About {
+.about {
   font-family: TiemposFine;
   font-weight: 300;
   text-align: left;
@@ -15,67 +15,67 @@
   webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
-.About a {
+.about a {
   color: #fff;
   text-decoration: none;
 }
-.About a:hover,
-.About a:active,
-.About a.active {
+.about a:hover,
+.about a:active,
+.about a.active {
   color: #cc9933;
 }
 
-.Hello {
+.hello {
   display: grid;
   align-self: start;
   line-height: 1.25;
   font-size: 4rem;
 }
 
-.Intro {
+.intro {
   align-self: start;
   grid-column: 1;
   font-size: 1.8rem;
   overflow-wrap: break-word;
 }
 
-.ImageContainer {
+.image-container {
   grid-column: 2 / -1;
   grid-row: 1 / -1;
   align-self: start;
 }
 
-.Profile {
+.profile {
   width: 100%;
 }
 
-.Social {
+.social {
   display: flex;
   font-size: 1.6rem;
 }
-.Social ul {
+.social ul {
   padding-bottom: 20px;
   padding-left: 0;
   list-style: none;
   display: inline-flex;
   align-items: center;
 }
-.Social li {
+.social li {
   padding: 10px;
 }
 
 @media screen and (max-width: 599px) {
-  .About {
+  .about {
     display: block;
     margin-top: 0px;
   }
-  .ImageContainer {
+  .image-container {
     display: none;
   }
-  .Intro {
+  .intro {
     display: none;
   }
-  .Social {
+  .social {
     display: block;
   }
 }
