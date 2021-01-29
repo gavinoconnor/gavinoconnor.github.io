@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div className={classes.App}>
         <Navbar />
-          <Home />
+          {/* <Home /> */}
           <About />
           <Projects />
           <BlogsContainer />
