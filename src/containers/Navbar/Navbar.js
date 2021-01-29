@@ -1,22 +1,17 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 
-import classes from './Navbar.module.css';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className={classes.Font}>
-      <header className={classes.Navbar}>
-        {/* <Link to='/' style={{fontSize: '32px'}}>GOC</Link> */}
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Blog</li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <nav className='navbar'>
+      {/* <div>GOC</div> */}
+      <ul className='nav-links'>
+        <li className='nav-item'><a href='#'>About</a></li>
+        <li className='nav-item'><a href='#'>Projects</a></li>
+        <li className='nav-item'><a href='#'>Blog</a></li>
+      </ul>
+    </nav>
   );
 }
 
