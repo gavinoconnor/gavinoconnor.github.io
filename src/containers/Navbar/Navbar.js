@@ -3,7 +3,7 @@ import React from 'react';
 import './Navbar.css';
 
 class Navbar extends React.Component {
-  testNav = () => {
+  handleClick = () => {
     console.log('clicket')
   }
 
@@ -11,9 +11,9 @@ class Navbar extends React.Component {
     return (
       <nav className='navbar'>
         <ul className='nav-links'>
-          <li className='nav-item' id='about' onClick={this.testNav}><a href='#'>About</a></li>
-          <li className='nav-item' id='projects'><a href='#'>Projects</a></li>
-          <li className='nav-item' id='blog'><a href='#'>Blog</a></li>
+          <li className='nav-item'>About</li>
+          <li className='nav-item' onClick={this.handleClick}>Projects</li>
+          <li className='nav-item' onClick={this.handleClick}>Blog</li>
         </ul>
       </nav>
     )

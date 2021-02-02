@@ -17,19 +17,19 @@
 .nav-item {
   padding-right: 60px;
   font-size: 1.25rem;
+  color: #FFF;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: #FFF;
 }
 
 
-.nav-item a:hover,
-.nav-item a:active,
-.nav-item a.active {
+/* .nav-item li:hover,
+.nav-item li:active,
+.nav-item li.active {
   color: #cc9933;
-}
+} */
 
 @media screen and (max-width: 599px) {
   .nav-item {

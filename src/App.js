@@ -20,8 +20,8 @@ class App extends React.Component {
       <div className='app'>
         <Navbar />
           <About />
-          <Projects />
-          <BlogsContainer />
+          <Projects ref='projects'/>
+          <BlogsContainer ref='blog'/>
         <Footer />
       </div>
     )
