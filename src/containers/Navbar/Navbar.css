@@ -21,15 +21,16 @@
 }
 
 .nav-item a {
+  color: #FFF;
   text-decoration: none;
 }
 
 
-/* .nav-item li:hover,
-.nav-item li:active,
-.nav-item li.active {
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a.active {
   color: #cc9933;
-} */
+}
 
 @media screen and (max-width: 599px) {
   .nav-item {

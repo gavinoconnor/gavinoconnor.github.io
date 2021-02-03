@@ -5,9 +5,10 @@ import './Projects.css';
 import tixtra from '../../assets/tixtra.png';
 
 class Projects extends React.Component {
+
   render() {
     return (
-      <div className='projects'>
+      <div className='projects' id='projects'>
 
         <div className='project-odd'>
           <h3>Tixtra</h3>

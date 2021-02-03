@@ -1,11 +1,11 @@
-.BlogsContainer {
+.blogs-container {
   background-color: #071C2C;
   padding-top: 50px;
   list-style: none;
   height: 84vh;
 }
 
-.Blogs {
+.blogs {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -14,11 +14,11 @@
 }
 
 @media screen and (max-width: 599px) {
-  .BlogsContainer {
+  .blogs-container {
     display: block;
     height: 100%;
   }
-  .Blogs {
+  .blogs {
     display: block;
     font-size: 1.15em;
   }

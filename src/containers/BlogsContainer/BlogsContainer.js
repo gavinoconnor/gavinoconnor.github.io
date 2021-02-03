@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BlogPost from '../../components/BlogPost/BlogPost';
 
-import classes from './BlogsContainer.module.css';
+import './BlogsContainer.css';
 
 class BlogsContainer extends Component {
 
@@ -19,8 +19,8 @@ class BlogsContainer extends Component {
 
   render() {
     return (
-      <div className={classes.BlogsContainer}>
-        <div className={classes.Blogs}>
+      <div className='blogs-container' id='blog'>
+        <div className='blogs'>
           {this.state.blogs.map(blog => {
             return <BlogPost key={blog.title} blog={blog}/>
           })}

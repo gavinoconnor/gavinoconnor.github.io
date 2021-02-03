@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -15,13 +15,21 @@ import './App.css';
 library.add(fab);
 
 class App extends React.Component {
+
+  scrollTarget = createRef();
+
+  handleClick = () => {
+    console.log(this.scrollTarget)
+    this.scrollTarget.current.scrollIntoView({ behavior: 'smooth' })
+  }
+
   render() {
     return (
       <div className='app'>
-        <Navbar />
+        <Navbar scroller={this.handleClick}/>
           <About />
-          <Projects ref='projects'/>
-          <BlogsContainer ref='blog'/>
+          <Projects ref={this.scrollTarget}/>
+          <BlogsContainer ref={this.scrollTarget}/>
         <Footer />
       </div>
     )

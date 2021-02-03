@@ -1,4 +1,4 @@
-const projects = [
+const probjects = [
   { id: 1, 
     title: 'BurgerBuilder', 
     github: 'https://github.com/gavinoconnor/burger-builder', 
@@ -16,4 +16,4 @@ const projects = [
   }
 ];
 
-export default projects;
+export default probjects;
