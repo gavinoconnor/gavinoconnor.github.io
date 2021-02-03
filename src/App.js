@@ -16,20 +16,28 @@ library.add(fab);
 
 class App extends React.Component {
 
-  scrollTarget = createRef();
+  projectRef = createRef();
+  blogRef = createRef();
 
-  handleClick = () => {
-    console.log(this.scrollTarget)
-    this.scrollTarget.current.scrollIntoView({ behavior: 'smooth' })
+  
+  scrollToContent = (event) => {
+    switch(event.target.innerHTML) {
+      case 'Projects':
+        this.projectRef.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'Blog':
+        this.blogRef.current.scrollIntoView({ behavior: 'smooth' });
+      // no default
+    }
   }
 
   render() {
     return (
       <div className='app'>
-        <Navbar scroller={this.handleClick}/>
+        <Navbar scroller={this.scrollToContent}/>
           <About />
-          <Projects ref={this.scrollTarget}/>
-          <BlogsContainer ref={this.scrollTarget}/>
+          <Projects refProp={this.projectRef}/>
+          <BlogsContainer refProp={this.blogRef}/>
         <Footer />
       </div>
     )

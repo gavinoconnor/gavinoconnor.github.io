@@ -19,7 +19,7 @@ class BlogsContainer extends Component {
 
   render() {
     return (
-      <div className='blogs-container' id='blog'>
+      <div className='blogs-container' ref={this.props.refProp}>
         <div className='blogs'>
           {this.state.blogs.map(blog => {
             return <BlogPost key={blog.title} blog={blog}/>

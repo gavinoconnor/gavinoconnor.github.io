@@ -8,7 +8,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className='projects' id='projects'>
+      <div className='projects' ref={this.props.refProp}>
 
         <div className='project-odd'>
           <h3>Tixtra</h3>

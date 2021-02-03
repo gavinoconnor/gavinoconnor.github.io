@@ -9,8 +9,8 @@ class Navbar extends React.Component {
       <nav className='navbar'>
         <ul className='nav-links'>
           <li className='nav-item'>About</li>
-          <li className='nav-item' onClick={this.props.scroller}><a href='#projects'>Projects</a></li>
-          <li className='nav-item' onClick={this.props.scroller}>Blog</li>
+          <li className='nav-item'><button onClick={this.props.scroller}>Projects</button></li>
+          <li className='nav-item'><button onClick={this.props.scroller}>Blog</button></li>
         </ul>
       </nav>
     )
