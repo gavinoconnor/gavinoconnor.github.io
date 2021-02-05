@@ -9,6 +9,8 @@ import About from './components/About/About';
 import Projects from './containers/Projects/Projects';
 import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Footer from './components/Footer/Footer';
+import ScrollArrow from './components/ScrollArrow/ScrollArrow';
+
 
 import './App.css';
 
@@ -38,6 +40,7 @@ class App extends React.Component {
           <About />
           <Projects refProp={this.projectRef}/>
           <BlogsContainer refProp={this.blogRef}/>
+          <ScrollArrow />
         <Footer />
       </div>
     )
