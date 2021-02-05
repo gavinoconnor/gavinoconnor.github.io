@@ -19,21 +19,30 @@
   font-size: 1.25rem;
   color: #FFF;
 }
+@media screen and (max-width: 599px) {
+  .nav-item {
+    display: none;
+  }
+}
 
 .nav-item a {
   color: #FFF;
   text-decoration: none;
 }
 
-
-.nav-item a:hover,
-.nav-item a:active,
-.nav-item a.active {
+.nav-item button:hover,
+.nav-item button:active,
+.nav-item button.active {
   color: #cc9933;
 }
 
-@media screen and (max-width: 599px) {
-  .nav-item {
-    display: none;
-  }
+.button {
+  font-family: NeueHaasUnicaPro;
+  font-weight: 300;
+  font-size: 1.25rem;
+  background: none;
+  border: none !important;
+  padding: 0 !important;
+  color: #FFF;
 }
+
