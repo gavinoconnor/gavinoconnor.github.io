@@ -1,6 +1,6 @@
 .app {
   background: #EAEAEA;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 @media screen and (max-width: 599px) {
