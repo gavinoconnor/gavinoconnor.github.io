@@ -1,33 +1,50 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React, { createRef } from 'react';
+
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import Navbar from './containers/Navbar/Navbar';
-import Home from './components/Home/Home';
 import About from './components/About/About';
-import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Projects from './containers/Projects/Projects';
+import BlogsContainer from './containers/BlogsContainer/BlogsContainer';
 import Footer from './components/Footer/Footer';
+import ScrollArrow from './components/ScrollArrow/ScrollArrow';
 
-import classes from './App.module.css';
+
+import './App.css';
 
 library.add(fab);
 
-function App() {
-  return (
-    <div className={classes.App}>
-      <Navbar />
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route path='/about' component={About}/>
-        <Route path='/blogs' component={BlogsContainer}/>
-        <Route path='/projects' component={Projects}/>
-      </Switch>
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+
+  projectRef = createRef();
+  blogRef = createRef();
+
+  
+  scrollToContent = (event) => {
+    switch(event.target.innerHTML) {
+      case 'Projects':
+        this.projectRef.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'Blog':
+        this.blogRef.current.scrollIntoView({ behavior: 'smooth' });
+      // no default
+    }
+  }
+
+  render() {
+    return (
+      <div className='app'>
+        <Navbar scroller={this.scrollToContent}/>
+          <About />
+          <Projects refProp={this.projectRef}/>
+          <BlogsContainer refProp={this.blogRef}/>
+          <ScrollArrow />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;

@@ -1,23 +1,20 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-import classes from './Navbar.module.css';
+import './Navbar.css';
 
-const Navbar = () => {
-  return (
-    <div className={classes.Font}>
-      <header className={classes.Navbar}>
-        <NavLink to='/' style={{fontSize: '32px'}}>GOC</NavLink>
-        <nav>
-          <ul>
-            <li><NavLink activeClassName={classes.active} to='/about'>About</NavLink></li>
-            <li><NavLink activeClassName={classes.active} to='/projects'>Projects</NavLink></li>
-            <li><NavLink activeClassName={classes.active} to='/blogs'>Blog</NavLink></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-  );
+class Navbar extends React.Component {
+
+  render() {
+    return (
+      <nav className='navbar'>
+        <ul className='nav-links'>
+          {/* <li className='nav-item'>About</li> */}
+          <li className='nav-item'><button className='button' onClick={this.props.scroller}>Projects</button></li>
+          <li className='nav-item'><button className='button' onClick={this.props.scroller}>Blog</button></li>
+        </ul>
+      </nav>
+    )
+  }
 }
 
 export default Navbar;

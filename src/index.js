@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from 'react-router-dom';
 
 import './fonts/TiemposFine-Light.otf';
 import './fonts/TiemposFine-Regular.otf';
@@ -11,11 +10,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const app = (
-  <HashRouter basename='/'>
-    <App />
-  </HashRouter>
-);
-
+  <App />
+)
 ReactDOM.render(app, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

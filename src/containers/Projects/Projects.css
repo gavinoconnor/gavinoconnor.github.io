@@ -1,4 +1,4 @@
-.Projects {
+.projects {
   background: #EAEAEA;
   font-family: NeueHaasUnicaPro;
   font-weight: 300;
@@ -8,19 +8,19 @@
   padding-top: 50px;
 }
 
-.Projects a:hover,
-.Projects a:active,
-.Projects a.active {
+.projects a:hover,
+.projects a:active,
+.projects a.active {
   color: #908434;
 }
 
-.Projects strong {
+.projects strong {
   font-size: 1.1em;
   color: #071014;
 }
 
 /* Even Numbered Projects */
-.ProjectEven {
+.project-even {
   background: #D8D8D8;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -31,27 +31,27 @@
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
 }
 
-.ProjectEven h3 {
+.project-even h3 {
   font-family: TiemposFine;
   font-weight: 400;
   font-size: 3em;
   grid-column: 1;
   align-self: center;
 }
-.ProjectEven p {
+.project-even p {
   font-size: 1.5em;
   line-height: 1.25;
   grid-row: 2;
   align-self: start;
 }
-.ProjectEven a {
+.project-even a {
   text-decoration: underline;
   color: #33334d;
   font-size: 1em;
   font-weight: 400;
   grid-row: 3;
 }
-.ProjectEven iframe {
+.project-even iframe {
   grid-column: 2;
   grid-row: 1 / 3;
   justify-self: end;
@@ -64,7 +64,7 @@
 /* Note: no styling for img tag */
 
 /* Odd Numbered Projects */
-.ProjectOdd {
+.project-odd {
   background: #EAEAEA;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -75,20 +75,20 @@
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
 }
 
-.ProjectOdd h3 {
+.project-odd h3 {
   font-family: TiemposFine;
   font-weight: 400;
   font-size: 3em;
   grid-column: 2;
   align-self: center;
 }
-.ProjectOdd p {
+.project-odd p {
   font-size: 1.5em;
   line-height: 1.25;
   grid-row: 2;
   align-self: center;
 }
-.ProjectOdd a {
+.project-odd a {
   text-decoration: underline;
   color: #33334d;
   font-size: 1em;
@@ -96,7 +96,7 @@
   grid-column: 2;
   grid-row: 3;
 }
-.ProjectOdd img {
+.project-odd img {
   padding-top: 20px;
   width: 70%;
   grid-column: 1;
@@ -104,7 +104,7 @@
   justify-self: start;
   align-self: center;
 }
-.ProjectOdd iframe {
+.project-odd iframe {
   padding-top: 20px;
   grid-column: 1;
   grid-row: 1 / 3;
@@ -115,30 +115,28 @@
 }
 
 @media screen and (max-width: 599px) {
-  .Projects {
+  .projects {
     display: block;
     /* padding: 0 40px; */
     margin: 0 auto;
   }
-  .ProjectOdd {
+  .project-odd {
     display: block;
     font-size: 1.15em;
     padding: 20px;
-    webkit-clip-path: none;
     clip-path: none;
   }
-  .ProjectEven {
+  .project-even {
     display: block;
     font-size: 1.15em;
     padding: 20px;
-    webkit-clip-path: none;
     clip-path: none;
   }
-  .ProjectOdd iframe {
+  .project-odd iframe {
     padding-top: 20px;
     width: 100%;
   }
-  .ProjectEven iframe {
+  .project-even iframe {
     padding-top: 20px;
     width: 100%;
   }

@@ -1,0 +1,48 @@
+.navbar {
+  font-family: NeueHaasUnicaPro;
+  font-weight: 300;
+  background-color: #071014;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  padding-right: 60px;
+  font-size: 1.25rem;
+  color: #FFF;
+}
+@media screen and (max-width: 599px) {
+  .nav-item {
+    display: none;
+  }
+}
+
+.nav-item a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.nav-item button:hover,
+.nav-item button:active,
+.nav-item button.active {
+  color: #cc9933;
+}
+
+.button {
+  font-family: NeueHaasUnicaPro;
+  font-weight: 300;
+  font-size: 1.25rem;
+  background: none;
+  border: none !important;
+  padding: 0 !important;
+  color: #FFF;
+  cursor: s-resize;
+}
