@@ -2,7 +2,6 @@
   font-family: TiemposFine;
   font-weight: 300;
   text-align: left;
-  text-decoration: none;
   background: #071014;
   color: #fff;
   display: grid;
@@ -26,13 +25,14 @@
 .hello {
   display: grid;
   align-self: start;
-  line-height: 1.25;
   font-size: 4rem;
 }
 
 .intro {
-  align-self: start;
+  display: grid;
+  align-self: center;
   grid-column: 1;
+  grid-row-start: 2;
   font-size: 1.8rem;
   overflow-wrap: break-word;
 }
@@ -48,32 +48,34 @@
 }
 
 .social {
-  display: flex;
+  display: inline-flex;
+  justify-content: flex-start;
+  border: 1px solid green;
   font-size: 1.6rem;
 }
 .social ul {
-  padding-bottom: 20px;
-  padding-left: 0;
-  list-style: none;
   display: inline-flex;
-  align-items: center;
+  list-style: none;
+  padding-left: 10px;
 }
 .social li {
-  padding: 10px;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 599px) {
   .about {
     display: block;
-    margin-top: 0px;
+    padding-bottom: 45px;
   }
   .image-container {
     display: none;
   }
   .intro {
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
   .social {
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
 }
