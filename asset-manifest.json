@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.65e9410b.chunk.css",
-    "main.js": "./static/js/main.14a585a0.chunk.js",
-    "main.js.map": "./static/js/main.14a585a0.chunk.js.map",
+    "main.css": "./static/css/main.1977e175.chunk.css",
+    "main.js": "./static/js/main.e08dec02.chunk.js",
+    "main.js.map": "./static/js/main.e08dec02.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ee0b0a2f.js",
     "runtime-main.js.map": "./static/js/runtime-main.ee0b0a2f.js.map",
     "static/js/2.b77ef82a.chunk.js": "./static/js/2.b77ef82a.chunk.js",
     "static/js/2.b77ef82a.chunk.js.map": "./static/js/2.b77ef82a.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.65e9410b.chunk.css.map": "./static/css/main.65e9410b.chunk.css.map",
+    "static/css/main.1977e175.chunk.css.map": "./static/css/main.1977e175.chunk.css.map",
     "static/js/2.b77ef82a.chunk.js.LICENSE.txt": "./static/js/2.b77ef82a.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/TiemposFine-Regular.433b8598.otf",
     "static/media/about-profile.319633f2.jpg": "./static/media/about-profile.319633f2.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee0b0a2f.js",
     "static/js/2.b77ef82a.chunk.js",
-    "static/css/main.65e9410b.chunk.css",
-    "static/js/main.14a585a0.chunk.js"
+    "static/css/main.1977e175.chunk.css",
+    "static/js/main.e08dec02.chunk.js"
   ]
 }
